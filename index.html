@@ -7,46 +7,170 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/main.css">
-
-  <title>Orientador</title>
+  <title>elguiamayor</title>
 </head>
 <body>
-  <!--menu-->
-  <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-    <h5 class="my-0 mr-md-auto font-weight-normal">
-      <img src="img/user.jpg" class="rounded-circle" alt="">
-     Clases progresivas</h5>
-    <nav class="my-2 my-md-0 mr-md-3">
-      <a class="p-2 text-dark disabled" href="#">Clases</a>
-      <a class="p-2 text-dark disabled" href="#">Libros</a>
-      <a class="p-2 text-dark disabled" href="#">Especialidades</a>
-      <a class="p-2 text-dark disabled" href="#">Otros</a>
-    </nav>
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"> <img src="img/logo.jpg" class="rounded-circle" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Libros <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="especialidades.html">Especialidades</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <!--card-->
-  <div class="container">
-    <div class="row justify-content-center">
-      <div class="card">
-        <div class="box">
-            <div class="img">
-                <img src="img/user.jpg">
+  <section id="team" class="pb-5">
+    <div class="container">
+      <h5 class="section-title h1">Libros</h5>
+      <div class="row">
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid" src="img/libros/libro1.jpg" alt="card image"></p>
+                    <h4 class="card-title">Nuestra identidad</h4>
+                    <p class="card-text">Libro sobre la historia de la Iglesia Adventista del Séptimo Día.</p>
+                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">Nuestra identidad</h4>
+                    <p class="card-text">George R. Knight es catedrático de historia de la iglesia en la universidad
+                      Andrews. Es el autor, de mas de esta serie de El Legado adventista </p>
+                    <ul class="list-inline">
+                      <a id="link-btn" class="btn" target="_blank" href="https://drive.google.com/file/d/1nJliDN_Iu3JRRTGQPsVUoCwUkle5H-h3/view?usp=sharing">Descargar</a>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-            <h2>Balmore Ramirez<br><span>Instructor</span></h2>
-            <p> Es un gusto Como Guía Mayor, acompañarlos en este proceso de formación en la clase de orientador.</p>
-            <span>
-                <ul>
-                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                </ul>
-            </span>
+          </div>
         </div>
+        <!-- ./Team member -->
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid" src="img/libros/libro2.jpg" alt="card image"></p>
+                    <h4 class="card-title">El sendero de la felicidad</h4>
+                    <p class="card-text">Libro para los conquistadores .</p>
+                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">El sendero de la felicidad</h4>
+                    <p class="card-text">EL SENDERO DE LA FELICIDADPor LAWRENCE MAXWELL Traducido y Adaptado por el
+                      Departamento de Jóvenes
+                      de La División Interamericana. Miami,
+                      Florida, Estados Unidos 1982 </p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a id="link-btn" target="_blank" class="btn" href="https://drive.google.com/file/d/1uTZ6PHLOYnxT0IN6Mvd1UrpjElvPewLO/view?usp=sharing">Descargar</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid" src="img/libros/libro3.jpg" alt="card image"></p>
+                    <h4 class="card-title">Conflicto de los siglos</h4>
+                    <p class="card-text">Libro de profecías que habrían de cumplirse desde el año 70 d.C.</p>
+                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">Conflicto de los siglos</h4>
+                    <p class="card-text">Elena G. de White (1827-1915). Prolífica
+                      escritora y conferencista.</p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a id="link-btn"  target="_blank" class="btn" href="https://drive.google.com/file/d/1bs4fEb-vXwbg18SvgA2hCVtpfZJu6L7C/view?usp=sharing">Descargar</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+        <!-- Team member -->
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+              <div class="frontside">
+                <div class="card">
+                  <div class="card-body text-center">
+                    <p><img class=" img-fluid" src="img/libros/libro4.jpg" alt="card image"></p>
+                    <h4 class="card-title">Mas alla de la imaginacion</h4>
+                    <p class="card-text">¿De dónde venimos y a donde vamos?
+                      ¿Cómo podemos explicar el surgimiento de ...</p>
+                    <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="backside">
+                <div class="card">
+                  <div class="card-body text-center mt-4">
+                    <h4 class="card-title">Mas alla de la imaginacion</h4>
+                    <p class="card-text">¿De dónde venimos y a donde vamos?
+                      ¿Cómo podemos explicar el surgimiento de la vida?
+                     ¿Hay alguien o algo superior que controla el universo?.</p>
+                    <ul class="list-inline">
+                      <li class="list-inline-item">
+                        <a id="link-btn" target="_blank" class="btn" href="https://drive.google.com/file/d/152oGX_OC88m-48JMIdOA4YpkCgjfbSvC/view?usp=sharing">Descargar</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ./Team member -->
+      </div>
     </div>
-    </div>
-<!--menu 2-->
-</div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
 </body>
+
 </html>
